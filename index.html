@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Cyber Shield URL Checker</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#0f172a;
+color:white;
+overflow-x:hidden;
+}
+
+/* HERO SECTION */
+
+.hero{
+height:100vh;
+background:
+linear-gradient(rgba(15,23,42,0.85), rgba(15,23,42,0.9)),
+url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop');
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.hero-content{
+max-width:850px;
+}
+
+.hero h1{
+font-size:60px;
+font-weight:700;
+color:#38bdf8;
+margin-bottom:20px;
+text-shadow:0 0 20px rgba(56,189,248,0.5);
+}
+
+.hero p{
+font-size:20px;
+line-height:1.7;
+margin-bottom:30px;
+color:#dbeafe;
+}
+
+.hero button{
+background:#2563eb;
+color:white;
+border:none;
+padding:15px 35px;
+font-size:18px;
+border-radius:12px;
+cursor:pointer;
+transition:0.3s;
+font-weight:600;
+box-shadow:0 0 20px rgba(37,99,235,0.4);
+}
+
+.hero button:hover{
+background:#1d4ed8;
+transform:translateY(-3px);
+}
+
+/* SECTION */
+
+section{
+padding:80px 10%;
+}
+
+.section-title{
+text-align:center;
+font-size:42px;
+margin-bottom:50px;
+color:#38bdf8;
+}
+
+/* ABOUT */
+
+.about{
+background:#111827;
+}
+
+.about-container{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:50px;
+align-items:center;
+}
+
+.about img{
+width:100%;
+border-radius:20px;
+box-shadow:0 0 30px rgba(0,0,0,0.5);
+}
+
+.about-text p{
+line-height:1.9;
+font-size:17px;
+color:#d1d5db;
+}
+
+/* FEATURES */
+
+.features-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.feature-card{
+background:#1e293b;
+padding:30px;
+border-radius:20px;
+transition:0.3s;
+box-shadow:0 0 20px rgba(0,0,0,0.2);
+}
+
+.feature-card:hover{
+transform:translateY(-8px);
+background:#2563eb;
+}
+
+.feature-card h3{
+margin:15px 0;
+font-size:22px;
+}
+
+.feature-card p{
+color:#dbeafe;
+line-height:1.7;
+}
+
+.icon{
+font-size:45px;
+}
+
+/* HOW IT WORKS */
+
+.steps{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.step-card{
+background:#1e293b;
+padding:25px;
+border-radius:20px;
+text-align:center;
+}
+
+.step-number{
+width:60px;
+height:60px;
+background:#2563eb;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+margin:auto;
+font-size:24px;
+font-weight:bold;
+margin-bottom:20px;
+}
+
+.step-card p{
+line-height:1.8;
+color:#d1d5db;
+}
+
+/* TECHNOLOGY */
+
+.tech-list{
+display:flex;
+flex-wrap:wrap;
+gap:15px;
+justify-content:center;
+}
+
+.tech-item{
+background:#1e40af;
+padding:12px 20px;
+border-radius:30px;
+font-weight:500;
+}
+
+/* SCREENSHOT */
+
+.screenshot{
+text-align:center;
+background:#111827;
+}
+
+.screenshot img{
+width:90%;
+max-width:1000px;
+border-radius:20px;
+box-shadow:0 0 25px rgba(0,0,0,0.5);
+}
+
+/* FOOTER */
+
+footer{
+background:#020617;
+padding:40px;
+text-align:center;
+}
+
+footer h2{
+color:#38bdf8;
+margin-bottom:10px;
+}
+
+footer p{
+color:#cbd5e1;
+margin-top:10px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:900px){
+
+.hero h1{
+font-size:42px;
+}
+
+.about-container{
+grid-template-columns:1fr;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+
+<div class="hero">
+<div class="hero-content">
+
+<h1>🛡 AI Cyber Shield URL Checker</h1>
+
+<p>
+AI-Powered Chrome Extension for detecting malicious and suspicious websites in real time using Machine Learning and Cybersecurity technologies.
+</p>
+
+<button onclick="window.location.href='mailto:vishwasanthush666@gmail.com'">Developer Contact</button>
+
+</div>
+</div>
+
+<!-- ABOUT -->
+
+<section class="about">
+
+<h2 class="section-title">About The System</h2>
+
+<div class="about-container">
+
+<img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070&auto=format&fit=crop">
+
+<div class="about-text">
+
+<p>
+AI Cyber Shield URL Checker is a smart cybersecurity browser extension developed using Python, FastAPI, Machine Learning, and Chrome Extension technologies.
+<br><br>
+The system captures the active website URL from the browser and analyzes it using an AI model trained with malicious and safe website datasets.
+<br><br>
+The extension instantly predicts whether the website is safe or malicious and displays the result in a professional popup interface.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FEATURES -->
+
+<section>
+
+<h2 class="section-title">Main Features</h2>
+
+<div class="features-grid">
+
+<div class="feature-card">
+<div class="icon">🛡</div>
+<h3>Real-Time Detection</h3>
+<p>Instantly analyzes websites and checks whether they are safe or malicious.</p>
+</div>
+
+<div class="feature-card">
+<div class="icon">🤖</div>
+<h3>AI Detection</h3>
+<p>Uses Machine Learning algorithms and TF-IDF vectorization for prediction.</p>
+</div>
+
+<div class="feature-card">
+<div class="icon">🌐</div>
+<h3>Chrome Extension</h3>
+<p>User-friendly popup interface integrated directly into the browser.</p>
+</div>
+
+<div class="feature-card">
+<div class="icon">📍</div>
+<h3>Server IP Detection</h3>
+<p>Detects the website server IP address and displays network details.</p>
+</div>
+
+<div class="feature-card">
+<div class="icon">⚡</div>
+<h3>Fast API Backend</h3>
+<p>Powered by FastAPI for fast and high-performance backend processing.</p>
+</div>
+
+<div class="feature-card">
+<div class="icon">📊</div>
+<h3>Network Monitoring</h3>
+<p>Supports live network packet monitoring and security alert logging.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- HOW IT WORKS -->
+
+<section class="about">
+
+<h2 class="section-title">How The System Works</h2>
+
+<div class="steps">
+
+<div class="step-card">
+<div class="step-number">1</div>
+<p>User opens a website in the browser.</p>
+</div>
+
+<div class="step-card">
+<div class="step-number">2</div>
+<p>The extension captures the active URL.</p>
+</div>
+
+<div class="step-card">
+<div class="step-number">3</div>
+<p>The URL is sent securely to the FastAPI backend.</p>
+</div>
+
+<div class="step-card">
+<div class="step-number">4</div>
+<p>The AI model predicts whether the website is safe or malicious.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- TECHNOLOGIES -->
+
+<section>
+
+<h2 class="section-title">Technologies Used</h2>
+
+<div class="tech-list">
+
+<div class="tech-item">Python</div>
+<div class="tech-item">FastAPI</div>
+<div class="tech-item">Machine Learning</div>
+<div class="tech-item">Scikit-learn</div>
+<div class="tech-item">Pandas</div>
+<div class="tech-item">Joblib</div>
+<div class="tech-item">JavaScript</div>
+<div class="tech-item">HTML & CSS</div>
+<div class="tech-item">Chrome Extension API</div>
+<div class="tech-item">Cybersecurity</div>
+
+</div>
+
+</section>
+
+<!-- LIVE PROTECTION SECTION -->
+
+<section class="screenshot">
+
+<h2 class="section-title">Live Cyber Protection</h2>
+
+<p style="max-width:850px;margin:auto;margin-bottom:40px;line-height:1.9;color:#d1d5db;font-size:17px;">
+The AI Cyber Shield URL Checker continuously analyzes websites and network activity in real time to help users browse securely. The system combines Machine Learning, FastAPI backend services, and cybersecurity monitoring techniques to detect suspicious and malicious behavior instantly.
+</p>
+
+<div class="features-grid">
+
+<div class="feature-card">
+<div class="icon">🚨</div>
+<h3>Malicious URL Alerts</h3>
+<p>Detects phishing and suspicious websites instantly using AI-powered analysis.</p>
+</div>
+
+<div class="feature-card">
+<div class="icon">🔒</div>
+<h3>Safe Browsing Protection</h3>
+<p>Protects users while browsing and displays real-time website safety status.</p>
+</div>
+
+<div class="feature-card">
+<div class="icon">📡</div>
+<h3>Live Network Monitoring</h3>
+<p>Monitors network packets and security activities in real time.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<h2>🛡 AI Cyber Shield URL Checker</h2>
+
+<p>
+AI-Powered Cybersecurity Browser Protection System
+</p>
+
+<p>
+© 2026 All Rights Reserved
+</p>
+
+</footer>
+
+</body>
+</html>
